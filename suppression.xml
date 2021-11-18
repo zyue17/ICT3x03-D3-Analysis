@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+   <suppress>
+      <notes><![CDATA[
+      file name: ansi-html:^0.0.7
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/ansi\-html@.*$</packageUrl>
+      <cve>CVE-2021-23424</cve>
+   </suppress>
+	
+  <suppress>
+      <notes><![CDATA[
+      file name: lodash:^4.17.11
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/lodash@.*$</packageUrl>
+      <cpe>cpe:/a:lodash:lodash</cpe>
+   </suppress>
+
+<suppress>
+      <notes><![CDATA[
+      file name: lodash:^4.17.11
+      ]]></notes>
+      <sha1>ad2d7c64f7d4e4ad4100a4f214a84551cea0586d</sha1>
+      <vulnerabilityName>CVE-2018-16487</vulnerabilityName>
+   </suppress>
+
+<suppress>
+      <notes><![CDATA[
+      file name: lodash:^4.17.11
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/lodash@.*$</packageUrl>
+      <vulnerabilityName>CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection')</vulnerabilityName>
+   </suppress>
+
+ <suppress>
+      <notes><![CDATA[
+      file name: lodash:^4.17.11
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/lodash@.*$</packageUrl>
+      <vulnerabilityName>CWE-506: Embedded Malicious Code</vulnerabilityName>
+   </suppress>
+
+<suppress>
+      <notes><![CDATA[
+      file name: lodash:^4.17.11
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/lodash@.*$</packageUrl>
+      <cve>CVE-2019-10744</cve>
+   </suppress>
+ <suppress>
+      <notes><![CDATA[
+      file name: http-proxy-agent:^4.0.1
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/http\-proxy\-agent@.*$</packageUrl>
+      <vulnerabilityName>CWE-20: Improper Input Validation</vulnerabilityName>
+   </suppress>
+
+<suppress>
+      <notes><![CDATA[
+      file name: http-proxy:^1.17.0
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/http\-proxy@.*$</packageUrl>
+      <vulnerabilityName>CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')</vulnerabilityName>
+   </suppress>
+
+<suppress>
+      <notes><![CDATA[
+      file name: https-proxy-agent:^5.0.0
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/https\-proxy\-agent@.*$</packageUrl>
+      <vulnerabilityName>CWE-300: Channel Accessible by Non-Endpoint ('Man-in-the-Middle')</vulnerabilityName>
+   </suppress>
+
+<suppress>
+      <notes><![CDATA[
+      file name: lodash:^4.17.11
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/lodash@.*$</packageUrl>
+      <cve>CVE-2021-23337</cve>
+   </suppress>
+<suppress>
+      <notes><![CDATA[
+      file name: lodash:^4.17.11
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/lodash@.*$</packageUrl>
+      <cve>CVE-2020-8203</cve>
+   </suppress>
+
+<suppress>
+      <notes><![CDATA[
+      file name: ws:^7.4.6
+      ]]></notes>
+      <sha1>3a047b1acd68b374f22d4fd2efdf9e960b9f37bb</sha1>
+      <vulnerabilityName>CWE-201: Information Exposure Through Sent Data</vulnerabilityName>
+   </suppress>
+
+<suppress>
+      <notes><![CDATA[
+      file name: ws:^7.4.6
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/ws@.*$</packageUrl>
+      <vulnerabilityName>CWE-20: Improper Input Validation</vulnerabilityName>
+   </suppress>
+
+
+   <suppress>
+      <notes><![CDATA[
+      file name: ws:^7.4.6
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/ws@.*$</packageUrl>
+      <vulnerabilityName>CWE-20: Improper Input Validation</vulnerabilityName>
+   </suppress>
+
+<suppress>
+      <notes><![CDATA[
+      file name: http-proxy-agent:^4.0.1
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/http\-proxy\-agent@.*$</packageUrl>
+      <vulnerabilityName>CWE-20: Improper Input Validation</vulnerabilityName>
+   </suppress>
+
+<suppress>
+      <notes><![CDATA[
+      file name: https-proxy-agent:^5.0.0
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/https\-proxy\-agent@.*$</packageUrl>
+      <vulnerabilityName>CWE-20: Improper Input Validation</vulnerabilityName>
+   </suppress>
+</suppressions>
+
+

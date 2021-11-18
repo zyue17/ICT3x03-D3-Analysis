@@ -1,0 +1,9 @@
+fastapi==0.70.0
+pydantic>=1.8.0,<2.0.0
+uvicorn>=0.15.0,<0.16.0
+twilio==7.2.0
+mysql-connector-python==8.0.27
+APScheduler==3.8.1
+itsdangerous==2.0.1
+cryptography==35.0.0
+mysql-connector-python==8.0.27

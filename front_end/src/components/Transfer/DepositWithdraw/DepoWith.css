@@ -1,0 +1,16 @@
+@media all and (min-width: 480px) {
+.DepoWith {
+  margin: 0;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.DepoWith form {
+    margin: 5 auto;
+    max-width: 320px;
+  }
+
+}
