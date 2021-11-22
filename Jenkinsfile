@@ -3,7 +3,7 @@ pipeline {
     stages { 
         stage ('Checkout') { 
             steps { 
-                git branch:'master', url: 'https://github.com/zyue17/ICT3x03-D3-Analysis.git' 
+                git branch:'master', url: 'https://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@github.com/zyue17/ICT3x03-D3-Analysis.git' 
             } 
         } 
          
